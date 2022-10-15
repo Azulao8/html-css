@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(255, 163, 163);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(57, 196, 2);
+}
+
+h1#pricipal {
+    text-align: center;
+    background-color: rgb(128, 0, 0);
+    color: white;
+}
+/* a sequilha ou jogo da velha #, ela identifica o id em CSS */
+/* a class no HTML no CSS e (.) */
+
+h2 {
+    color: green;
+}
+
+.basico {
+    color: blue;
+}
+
+.intermediario {
+    color: yellow;
+}
+
+.avancado {
+    color: red;
+}
+
+.destaque {
+    background-color: burlywood;
+}

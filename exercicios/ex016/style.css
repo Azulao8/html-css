@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    /*height: 100%;*/
+}
+
+body {
+    background-image: linear-gradient(to right, #8C1F28, #D92525); /*serve para fazer gradientes de cores onde tem (to right, serve para indicar para qual direção voce quer o gradiente de cores*/
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.877); /* serve para colocar cor na pagina mas não funciona como gradiente*/
+    border-radius: 10px; /*serve para aredondar as bordas do site, exempl; tag main*/
+    box-shadow: 5px 5px 15px #044040; /*serve para fazer sombreamento das bordas do site, exemplo; tag main*/
+    width: 600px;
+    padding: 10px;
+    margin: auto; /*seve para manter a pagina do site sentralisada mesmo que mexa a tela*/
+}
+
+h1 {
+    color: #043b3b;
+    text-align: center; /*serve para centralisar o texto*/
+    text-shadow: 1px 1px 2px #D92525; /* serve para faser sombreamento do texto*/
+}
+
+h2 {
+    color: #057272;
+}
+
+p {
+    text-align: justify;
+}

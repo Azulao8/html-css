@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fontes em css</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            medidas absolutas
+            cm, mm, (in: isso e polegada), px, pt, pc
+            
+            medidas relativas
+            em, ex, rem, (vw: relativo ao tamanho da tela) vh, %
+
+            recomendação da W3C, fazer o uso de (px & em) para medidas de fonte.
+            geralmente 16px e = 1em.
+            recomendação e usar o (em) caso formostrar seu site em varios tipos de tela de tamanhos diferentes.
+            */
+            font-size: 1em;
+            font-weight: bolder; /*serve para dar peso na fonte, deixa em negrito*/
+            font-style: italic; /*italico e outros*/
+            text-decoration: underline; /*linha / sublinhado*/
+        }
+
+        h1 {
+            /* shorthand font */
+            /*
+            Orden do shorthand.
+
+                font-style:
+                font-weight:
+                font-size:
+                font-family:
+            */
+            font: italic bolder 3em 'work sans', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, dicta expedita. Repellendus quibusdam sapiente minima officia aspernatur exercitationem tempore reiciendis, qui magnam voluptatum accusantium harum explicabo nesciunt animi incidunt tempora? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae doloremque dicta vero, tenetur quia accusamus nihil, sapiente cupiditate est deleniti nostrum et recusandae distinctio blanditiis nam, quasi doloribus deserunt! Vitae.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit ab vero odio accusamus laudantium fugit quod obcaecati ex iste adipisci culpa quia neque ipsam molestias deleniti magnam voluptatibus, facere sunt?</p>
+    <h1>sub titulo</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit ea officiis dolor quam maxime aliquid esse ipsum autem atque, cumque perferendis iusto ad similique provident distinctio consequatur fuga, voluptatibus quas? Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum asperiores temporibus corrupti vitae necessitatibus, dolores, ad esse porro quaerat maxime quo maiores mollitia eveniet reiciendis, in minima. Suscipit, officia corrupti.</p>
+</body>
+</html>

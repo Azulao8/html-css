@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias em HTML5</title>
+</head>
+<body>
+    <h1>imagens dinamicas</h1>
+    <p>tente abrir esse site em varios dispositivos diferente ou simples mente almente e diminua o tamanha do seu navegador</p>
+    <picture> <!--se nao fizer na mesma ordem, nao vai funcionar, precida seguir a orden-->
+        <source media="(max-width:  750px)" srcset="imagens/p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/m.png" type="image/png">
+        <img src="imagens/g.png" alt="imagem flexivel">
+    </picture>
+
+    <h1>reprodusindo aldio</h1>
+    <p>vamos aprender a reproduzir audios em HTML5.</p>
+    <audio preload="metadata" controls> <!--esse da mesma maneira precisa seguir uma ordem se nao ele nao funciona-->
+        <source src="midia/moojido-vaquinha.mp3" type="audio/mpeg">
+        <source src="midia/moojido-vaquinha.ogg" type="audio/ogg">
+        <source src="midia/moojido-vaquinha.wav" type="audio/wav"> <!--caso o navegador nao seja compativel com nenhum desses tipos , pessoa/cliente pode baixar o arquivo de aldio vvvv -->
+        <p>infelizmente seu navegador nao consegue reproduzir aldio. <a href="midia/moojido-vaquinha.mp3">clike aqui para baixar o arquivo mp3</a></p>
+    </audio>
+</body>
+</html>
