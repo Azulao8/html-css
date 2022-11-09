@@ -4,20 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>fundo fixo de tela</title>
     <style>
         body {
             height: 100vh;
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center top;
-            background-repeat: repeat;
+            /*background-position (define como e onde a imagem de fundo é posicionada); background-clip (define a área do box onde a imagem de fundo é aplicada); background-origin (define a posição de origem da imagem no box); background-size (define as dimensões da imagem no box);*/
+
+            background-repeat: no-repeat;
+            /*O background-repeat veio para determinar se a imagem de fundo que colocarmos no nosso código e em seguida avistarmos no nosso browser , será repetida ou não para cobrir uma área de preenchimento de um elemento de fundo que estaremos usando.*/
+
             background-size: cover;
+            /*A propriedade background-size do CSS especifica o tamanho das imagens de fundo. O tamanho da imagem pode ser totalmente ou apenas parcialmente comprimido com o objetivo de preservar sua proporção.*/
+
+            background-attachment: fixed;
+            /*background-attachment determina se aquela posição da imagem é fixa com o viewport, ou se irá rolar juntamente com o seu bloco.*/
+
+            /* Shorthand - background
+                color > img > position > repeat > attachment.
+            
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;*/
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -28,6 +41,8 @@
 <body>
     <main>
         <h1>Teste de imagen de fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam eos excepturi aut provident repudiandae dicta amet quae maiores doloribus ea sunt quia reprehenderit ducimus repellat, saepe, fugiat illum, adipisci ex! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, natus dolorum quae sed voluptate quas molestiae? Quaerat enim nostrum accusamus ea dignissimos libero illum reiciendis perferendis provident. Vero, quisquam consequuntur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas temporibus laudantium obcaecati ipsa sequi odit, voluptate commodi? Totam ipsum, ab vitae voluptatibus dolore quibusdam, dicta, corporis similique cum sint doloribus?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam eos excepturi aut provident repudiandae dicta amet quae maiores doloribus ea sunt quia reprehenderit ducimus repellat, saepe, fugiat illum, adipisci ex! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, natus dolorum quae sed voluptate quas molestiae? Quaerat enim nostrum accusamus ea dignissimos libero illum reiciendis perferendis provident. Vero, quisquam consequuntur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas temporibus laudantium obcaecati ipsa sequi odit, voluptate commodi? Totam ipsum, ab vitae voluptatibus dolore quibusdam, dicta, corporis similique cum sint doloribus?</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam eos excepturi aut provident repudiandae dicta amet quae maiores doloribus ea sunt quia reprehenderit ducimus repellat, saepe, fugiat illum, adipisci ex! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, natus dolorum quae sed voluptate quas molestiae? Quaerat enim nostrum accusamus ea dignissimos libero illum reiciendis perferendis provident. Vero, quisquam consequuntur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas temporibus laudantium obcaecati ipsa sequi odit, voluptate commodi? Totam ipsum, ab vitae voluptatibus dolore quibusdam, dicta, corporis similique cum sint doloribus?</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam eos excepturi aut provident repudiandae dicta amet quae maiores doloribus ea sunt quia reprehenderit ducimus repellat, saepe, fugiat illum, adipisci ex! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, natus dolorum quae sed voluptate quas molestiae? Quaerat enim nostrum accusamus ea dignissimos libero illum reiciendis perferendis provident. Vero, quisquam consequuntur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas temporibus laudantium obcaecati ipsa sequi odit, voluptate commodi? Totam ipsum, ab vitae voluptatibus dolore quibusdam, dicta, corporis similique cum sint doloribus?</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam eos excepturi aut provident repudiandae dicta amet quae maiores doloribus ea sunt quia reprehenderit ducimus repellat, saepe, fugiat illum, adipisci ex! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, natus dolorum quae sed voluptate quas molestiae? Quaerat enim nostrum accusamus ea dignissimos libero illum reiciendis perferendis provident. Vero, quisquam consequuntur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas temporibus laudantium obcaecati ipsa sequi odit, voluptate commodi? Totam ipsum, ab vitae voluptatibus dolore quibusdam, dicta, corporis similique cum sint doloribus?</p>
